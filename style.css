@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+      background-image: url(background.gif);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+}
+
+.bg{
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.2);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 50px rgb(240, 3, 3);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.bg h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.bg h6{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(10, 232, 220);
+}
+
+.bg .inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px o;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.inputbox input::placeholder{
+    color: #fff;
+
+}
+
+.inputbox i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.bg .rem-for{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -0px 0 15px;
+}
+.rem-for label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.rem-for a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.rem-for a:hover{
+    text-decoration: underline;
+}
+
+.bg .butt{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+
+}
+
+.bg .register{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover{
+    text-decoration: underline;
+}
